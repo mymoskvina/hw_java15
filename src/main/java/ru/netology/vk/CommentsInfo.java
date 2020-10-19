@@ -2,7 +2,7 @@ package ru.netology.vk;
 public class CommentsInfo {
     private int id;
     private int postId;
-    private boolean interesting;
+    private boolean interesting; // флаг для того чтобы отображать в выборке "Сначала интересные"
     private int userId;
     private String userAvatar;
     private String comment;
